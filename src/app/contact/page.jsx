@@ -3,6 +3,11 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { Button } from "@/components";
 
+export const metadata = {
+  title: "Lorinem | Contact",
+  description: "Lorinem - Handcrafting award winning digital experiences",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
